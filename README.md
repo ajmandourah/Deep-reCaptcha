@@ -84,7 +84,7 @@ early_stop = tf.keras.callbacks.EarlyStopping(
 checkpoint = tf.keras.callbacks.ModelCheckpoint('checkpoint.h5',monitor='val_loss', save_best_only=True)
 
 
-percentage_to_not_train = 90
+percentage_to_not_train = 100
 
 for _ in range(7):
     
