@@ -1,5 +1,6 @@
 # Deep-reCaptcha
 
+![recaptcha](https://github.com/ajmandourah/Deep-reCaptcha/blob/main/recaptcha.gif?raw=true)
 
 Deep-reCaptcha is a recaptcha solver built using python and selenium. It uses deep learning to predict the captcha in action and click it. Deep-reCaptcha uses a pretrained model, efficientNet v2, the M variant used for the balance between size and accurecy. This project is made for educational purposes.
 
@@ -7,6 +8,8 @@ Deep-reCaptcha is a recaptcha solver built using python and selenium. It uses de
 
 python 3.9 is used. It should work with other versions though. Packages installed are tensorflow 2.10, numpy, selenium and pillow.
 The script will check for the model first and download it if not present from github, then will launch the reCaptcha demo page and solve it. the 4x4 captcha type is skipped for now as I have not implemented 
+
+As for selenium, I am using firefox. download the last version of gecko driver 
 
 
 ## about the model
